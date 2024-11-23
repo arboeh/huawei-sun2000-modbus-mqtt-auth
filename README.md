@@ -28,7 +28,7 @@ see the library source for the possible values of the sources, see: https://gitl
 Then, you need to generate the docker image. Enter inside the code folder, and execute the following command:
 
 ```
-docker build -t huawei-solar .
+docker build -t huawei-solar-auth .
 ```
 
 Once the docker image has been generated, you can use the following docker-compose service to initialize it:
